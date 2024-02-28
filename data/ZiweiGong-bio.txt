@@ -1,0 +1,1 @@
+Ziwei (Sara) Gong is a Ph.D. student in Computer Science at Columbia University under the supervision of Professor Julia Hirschberg. Her research interest is in multimodal learning and the interdisciplinary studies between NLP and psychology. Currently, she is working on multimodal emotion detection.
