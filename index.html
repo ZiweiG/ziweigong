@@ -68,6 +68,9 @@
         <br>
         <a href="https://www.cs.columbia.edu/speech/PaperFiles/2024/eacl24_emotion_paper.pdf">pdf</a>
         <p></p>
+	 <p>
+        Compare the current classification methods in recent models and datasets, and propose a valid method to combine different emotion categories. O
+        </p>
       </td>
     </tr>
 	    
@@ -110,96 +113,6 @@
       </td>
     </tr>
 
-
-		  
-      <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-            <div class="two" id='zipnerf_image'><video  width=100% height=100% muted autoplay loop>
-            <source src="images/zipnerf.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            </video></div>
-            <img src='images/zipnerf.jpg' width="160">
-          </div>
-          <script type="text/javascript">
-            function zipnerf_start() {
-              document.getElementById('zipnerf_image').style.opacity = "1";
-            }
-
-            function zipnerf_stop() {
-              document.getElementById('zipnerf_image').style.opacity = "0";
-            }
-            zipnerf_stop()
-          </script>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="http://jonbarron.info/zipnerf">
-            <span class="papertitle">Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields</span>
-          </a>
-          <br>
-          <strong>Jonathan T. Barron</strong>,
-          <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-          <a href="https://scholar.harvard.edu/dorverbin/home">Dor Verbin</a>,
-          <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-          <a href="https://phogzone.com/">Peter Hedman</a>
-          <br>
-          <em>ICCV</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation, Best Paper Finalist)</strong></font>
-          <br>
-          <a href="http://jonbarron.info/zipnerf">project page</a>
-          /
-          <a href="https://www.youtube.com/watch?v=xrrhynRzC8k">video</a>
-          /
-          <a href="https://arxiv.org/abs/2304.06706">arXiv</a>
-          <p></p>
-          <p>
-          Combining mip-NeRF 360 and grid-based models like Instant NGP lets us reduce error rates by 8%&ndash;77% and accelerate training by 24x.
-          </p>
-        </td>
-      </tr>
-      
-            <tr onmouseout="dualdefocus_stop()" onmouseover="dualdefocus_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='dualdefocus_image'>
-                    <img src='images/dualdefocus_after.jpg' width="160"></div>
-                  <img src='images/dualdefocus_before.jpg' width="160">
-                </div>
-                <script type="text/javascript">
-                  function dualdefocus_start() {
-                    document.getElementById('dualdefocus_image').style.opacity = "1";
-                  }
-
-                  function dualdefocus_stop() {
-                    document.getElementById('dualdefocus_image').style.opacity = "0";
-                  }
-                  dualdefocus_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://imaging.cs.cmu.edu/dual_pixels/">
-                  <span class="papertitle">Defocus Map Estimation and Deblurring from a Single Dual-Pixel Image</span>
-                </a>
-                <br>
-                <a href="https://shumianxin.github.io/">Shumian Xin</a>,
-                <a href="http://nealwadhwa.com">Neal Wadhwa</a>,
-                <a href="https://tianfan.info/">Tianfan Xue</a>,
-                <strong>Jonathan T. Barron</strong>, <br>
-                <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-                <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
-                <a href="https://www.cs.cmu.edu/~igkioule/">Ioannis Gkioulekas</a>,
-                <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>
-                <br>
-                <em>ICCV</em>, 2021 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
-                <br>
-                <a href="https://imaging.cs.cmu.edu/dual_pixels/">project page</a> /
-                <a href="https://github.com/cmu-ci-lab/dual_pixel_defocus_estimation_deblurring">code</a>
-                <br>
-                <p></p>
-                <p>
-                  Multiplane images can be used to simultaneously deblur dual-pixel images, despite variable defocus due to depth variation in the scene.
-                </p>
-              </td>
-            </tr> 
 
 
           </tbody></table>
